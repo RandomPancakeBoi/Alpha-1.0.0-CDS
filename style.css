@@ -99,6 +99,9 @@ img { max-width: 100%; display: block; }
 .delay3 { transition-delay:.45s; }
 .delay4 { transition-delay:.6s; }
 
+/* Btn Job */
+.btn-job { padding-top: 5px; }
+
 /* Responsive */
 @media (max-width:1200px){ .services-grid { grid-template-columns:repeat(3,1fr); } }
 @media (max-width:980px){
@@ -115,4 +118,5 @@ img { max-width: 100%; display: block; }
 @media (min-width:981px){
   .site-nav { display:flex !important; }
   body.nav-open .site-nav { display:flex !important; position:static; }
+
 }
